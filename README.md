@@ -5,7 +5,7 @@ Dental caries or cavities, more commonly known as tooth decay, are caused by a b
 
 The goal of our project was to develop a model that can process a panoramic x ray image and can separate the teeth with caries from the healthy teeth. With this model we speed up the process of cavity detection, and we also enable patients to have access to these information and be informed about their health
 
-#Phases of project implementation:
+# Phases of project implementation:
 Phase 1: Dataset collection
  In order to train a deep-learning model to classify whether a tooth is healty or with caries cavity, we needed an appropriate dataset with balanced distribution of images for the two classes:
 
@@ -20,10 +20,10 @@ Phase 3: Training the model
 Phase 4:Detection of cavity in panoramic x-rays
    Finally we detected the xrays who are with cavity and nocavity.
   
-#Conclusion:
+# Conclusion:
   During the working process we faced some issues during collecting the data and quality of the images. Dental x-rays are considered personal data so we had a challenge to find public available images, because of that our dataset has limited resources. While training our model we received results with good accuracy. With access to more data we will be able to improve the accuracy of our model.
   
-#Future work:
+# Future work:
 The purpose of this model is to save the time that dentists lose in reading the dental imaging. With this model, with the recording itself, they will receive a ready analysis and dentists will be able to immediately focus on the teeth that need to be repaired.
 
 In Macedonia, especially in small places, X-rays are taken outside dental offices. Patients receive an X-ray, and then go to the dentist to read it. With this model, in addition to the x-ray image, they will receive an analysis, which will allow them to know if they have teeth that need to be repaired, how many and which teeth they are.
